@@ -38,8 +38,8 @@
 #' Compute correlations with consistent CI handling
 #'
 #' Wrapper around [correlation::correlation()] that ensures
-#' consistent handling of confidence intervals. In particular,
-#' `ci = NULL` is treated as `ci = FALSE`, and CI columns are
+#' consistent handling of confidence intervals.
+#' In particular, `ci = NULL` is treated as `ci = FALSE`, and CI columns are
 #' removed from the output when not requested.
 #'
 #' @inheritParams correlation::correlation
